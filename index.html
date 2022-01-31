@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Registration form design</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/336be35538.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <!-- SignIn Form -->
+          <form action="" class="sign-in-form">
+            <h2 class="title">Sign In</h2>
+            <div class="input-feild">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-feild">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="" id="" placeholder="Password" />
+            </div>
+            <input type="submit" value="Signin" class="btn solid" />
+            <p class="social-text">Or signin with social media account.</p>
+            <div class="social-media">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </form>
+
+          <!-- Sign UP Form -->
+          <form action="" class="sign-up-form">
+            <h2 class="title">Sign Up</h2>
+            <div class="input-feild">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-feild">
+              <i class="fas fa-envelope"></i>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="input-feild">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="" id="" placeholder="Password" />
+            </div>
+            <input type="submit" value="Sign Up" class="btn solid" />
+            <p class="social-text">Or sign up with social media account.</p>
+            <div class="social-media">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="panel-container">
+        <div class="panel left-panel" id="left_panel">
+          <div class="content">
+            <h3>New here?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque ratione nostrum omnis? Quia asperiores, dolorem
+              assumenda sint odio ut veritatis veniam.
+            </p>
+            <button
+              class="btn transparent"
+              id="sign_up_btn"
+              onclick="sign_up_form()"
+            >
+              Sign UP
+            </button>
+          </div>
+          <img src="img/signup.svg" alt="" class="image" />
+        </div>
+
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque ratione nostrum omnis? Quia asperiores, dolorem
+              assumenda sint odio ut veritatis veniam.
+            </p>
+            <button
+              class="btn transparent"
+              id="sign_up_btn"
+              onclick="sign_in_form()"
+            >
+              SignIn
+            </button>
+          </div>
+          <img src="img/signin.svg" alt="" class="image" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrips -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
